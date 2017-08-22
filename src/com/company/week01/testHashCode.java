@@ -6,11 +6,14 @@ import java.util.Map;
 import java.util.Set;
 
 public class testHashCode {
+
     public static void main(String[] args) {
-        Map<String, String> map = new HashMap<String, String>(6, 1f);
+
+        Map<String, String> map = new HashMap<String, String>();
 
         System.out.println(map.size());
 
+        map.put("aaa", "qwew");
         map.put("aaa", "aaa1");
         map.put("bbb", "bbb2");
         map.put("ccc", "qwew");

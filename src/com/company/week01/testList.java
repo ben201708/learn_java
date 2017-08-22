@@ -16,12 +16,12 @@ public class testList {
         addList();
     }
 
-    private static String getRandStr(int len){
-        String str =  "abcdefghijklmnopqrstuvwxyz0123456789";
+    private static String getRandStr(int len) {
+        String str = "abcdefghijklmnopqrstuvwxyz0123456789";
 
-        Random ra=new Random();
+        Random ra = new Random();
         StringBuffer s = new StringBuffer();
-        for (int i=0;i<len;i++){
+        for (int i = 0; i < len; i++) {
             int num = ra.nextInt(str.length());
             s.append(str.charAt(num));
         }
@@ -65,21 +65,21 @@ public class testList {
 
     private static void addList() {
         //ArrayList
-        List ls = new ArrayList<Integer>();
+        List ls = new ArrayList<String>();
 
         Integer i;
         for (i = 0; i < addMax; i++) {
-            ls.add(getRandStr(addMax));
+            ls.add(String.valueOf(i) + getRandStr(addMax));
         }
 
         Long startTime = System.currentTimeMillis();
         for (i = 0; i < addMax; i++) {
-            Integer index = (int)Math.floor(Math.random()*addMax);
-            if (!index.equals(100)){
+            Integer index = (int) Math.floor(Math.random() * addMax);
+            if (!i.equals(100)) {
                 continue;
             }
-            ls.set(index, getRandStr(addMax));
-            //ls.add(index, getRandStr(addMax));
+            //ls.set(index, getRandStr(addMax));
+            ls.add(index, getRandStr(addMax));
         }
         Long endTime = System.currentTimeMillis();
 
@@ -87,21 +87,21 @@ public class testList {
 
 
         //LinkList
-        List linkList = new LinkedList<Integer>();
+        List linkList = new LinkedList<String>();
 
         Integer j;
         for (j = 0; j < addMax; j++) {
-            linkList.add(getRandStr(addMax));
+            linkList.add(String.valueOf(j) + getRandStr(addMax));
         }
 
         Long startTimeL = System.currentTimeMillis();
         for (j = 0; j < addMax; j++) {
-            Integer index = (int)Math.floor(Math.random()*addMax);
-            if (!index.equals(100)){
+            Integer index = (int) Math.floor(Math.random() * addMax);
+            if (!j.equals(100)) {
                 continue;
             }
-            linkList.set(index, getRandStr(addMax));
-            //linkList.add(index, getRandStr(addMax));
+            //linkList.set(index, getRandStr(addMax));
+            linkList.add(index, getRandStr(addMax));
         }
         Long endTimeL = System.currentTimeMillis();
 
