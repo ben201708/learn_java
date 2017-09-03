@@ -1,4 +1,4 @@
-package com.company.design_mode;
+package com.company.design_mode.single;
 
 /**
  * 延迟加载单例模式
@@ -16,6 +16,16 @@ public class LazySingleton {
             instance = new LazySingleton();
         }
         return instance;
+    }
+
+    public static void main(String[] args) {
+
+        Thread thread= new Thread();
+        thread.run();
+
+        LazySingleton.getInstance();
+        LazySingleton.getInstance();
+        LazySingleton.getInstance();
     }
 
 }

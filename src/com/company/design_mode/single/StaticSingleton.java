@@ -1,4 +1,4 @@
-package com.company.design_mode;
+package com.company.design_mode.single;
 
 /**
  * 单例模式
@@ -21,5 +21,10 @@ public class StaticSingleton {
         return SingletonHolder.instance;
     }
 
+    public static void main(String[] args) {
+        StaticSingleton.getInstance();
+        StaticSingleton.getInstance();
+        StaticSingleton.getInstance();
+    }
 }
 

@@ -83,7 +83,7 @@ public class TestConditionCommunicate13 {
                 }
 
                 for (int j = 1; j <= 100; j++ ) {
-                    System.out.println("main seq:" + j + "loop:" + i);
+                    System.out.println("StrategyMain seq:" + j + "loop:" + i);
                 }
 
                 isSubStatus = true;

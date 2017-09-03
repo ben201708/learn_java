@@ -1,4 +1,4 @@
-package com.company.design_mode;
+package com.company.design_mode.single;
 
 /**
  * 单例模式
@@ -17,6 +17,10 @@ public class Singleton {
 
     public static void creatString() {
         System.out.println("creatString is Singleton");
+    }
+
+    public static void main(String[] args) {
+        Singleton.creatString();
     }
 
 }
