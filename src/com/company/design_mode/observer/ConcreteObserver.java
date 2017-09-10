@@ -1,7 +1,7 @@
 package com.company.design_mode.observer;
 
 /**
- * 具体观察者，实现抽象观察者角色锁要求的接口
+ * 具体观察者，实现抽象观察者角色要求的接口
  */
 public class ConcreteObserver extends Observer {
 

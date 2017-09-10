@@ -1,5 +1,8 @@
 package com.company.design_mode.decorator;
 
+/**
+ * 装饰模式客户端代码实现
+ */
 public class DecoratorMain {
     public static void main(String[] args) {
         ConcreteComponent c = new ConcreteComponent();

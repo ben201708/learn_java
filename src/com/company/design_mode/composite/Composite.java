@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * 组合模式：定义有分支节点行为，用来存储子不见，在Component接口中实现与子部件有关的操作
+ * 组合模式：定义有分支节点行为，用来存储子部件，在Component接口中实现与子部件有关的操作
  */
 public class Composite extends Component {
 

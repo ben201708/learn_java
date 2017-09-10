@@ -1,4 +1,4 @@
-package com.company.design_mode;
+package com.company.design_mode.proxy;
 
 public class DBQuery extends IDBQuery {
     public DBQuery() {
