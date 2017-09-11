@@ -24,6 +24,8 @@ public class TestBufferStream {
             FileInputStream in = new FileInputStream(fileInPath);
             BufferedInputStream bin = new BufferedInputStream(in);
 
+            bin.read();
+
             int f = 0;
             bin.mark(1);
             for (int i = 0; i <= 10 && ((f = in.read()) != -1); i++) {
