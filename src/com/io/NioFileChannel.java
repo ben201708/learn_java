@@ -1,6 +1,6 @@
 package com.io;
 
-import java.io.FileNotFoundException;
+
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
@@ -10,7 +10,7 @@ import java.nio.channels.FileChannel;
  * @Date: 2017/9/9
  * @Time: 12:38
  */
-public class NIOStream {
+public class NioFileChannel {
 
     private static final String fileReadPath = "E:/server_java/learn_java/src/com/io/111.txt";
     private static final String fileWritePath = "E:/server_java/learn_java/src/com/io/666.txt";
@@ -19,8 +19,8 @@ public class NIOStream {
 
     public static void main(String[] args) {
 
-        new NIOStream().fileChannelRead();
-        new NIOStream().fileChannelWrite();
+        //new NioFileChannel().fileChannelRead();
+        new NioFileChannel().fileChannelWrite();
 
     }
 
@@ -36,15 +36,20 @@ public class NIOStream {
             ByteBuffer buffer = ByteBuffer.allocate(2048);
 
             //从buffer中读取文件内容放在FileChannel
-            inChannel.read(buffer);
+            int byteRead = inChannel.read(buffer);
 
-            // 清除此缓冲区。position = 0，limit=capacity，并且丢弃标记。此方法不能实际擦除缓冲区中的数据，但从名称来看似乎能够擦除，因为它多数情况下确实是在擦除数据时使用的。
-            //buffer.clear();
             // 反转此缓冲区。limit=position, position=0，如果已定义了标记，则丢弃该标记。将数据从一个地方传输到另一个地方时，经常将此方法与 compact 方法一起使用。
             buffer.flip();
 
-            while (buffer.hasRemaining()) {
-                System.out.println("read：" + (char)buffer.get());
+            while (byteRead != -1) {
+                while (buffer.hasRemaining()) {
+                    System.out.println("read：" + (char) buffer.get());
+                }
+
+                // 清除此缓冲区。position = 0，limit=capacity，并且丢弃标记。此方法不能实际擦除缓冲区中的数据，但从名称来看似乎能够擦除，因为它多数情况下确实是在擦除数据时使用的。
+                buffer.clear();
+
+                byteRead = inChannel.read(buffer);
             }
 
             inChannel.close();
