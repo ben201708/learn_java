@@ -35,14 +35,18 @@ public class NIOStream {
             //分配buffer空间存储文件内容
             ByteBuffer buffer = ByteBuffer.allocate(2048);
 
-            byte[] b = new byte[2048];
-
             //从buffer中读取文件内容放在FileChannel
-            //int len = inChannel.read(buffer);
-            int tmp = 0;
-            while ((tmp = inChannel.read(buffer)) != -1) {
-                System.out.println(tmp);
+            inChannel.read(buffer);
+
+            // 清除此缓冲区。position = 0，limit=capacity，并且丢弃标记。此方法不能实际擦除缓冲区中的数据，但从名称来看似乎能够擦除，因为它多数情况下确实是在擦除数据时使用的。
+            //buffer.clear();
+            // 反转此缓冲区。limit=position, position=0，如果已定义了标记，则丢弃该标记。将数据从一个地方传输到另一个地方时，经常将此方法与 compact 方法一起使用。
+            buffer.flip();
+
+            while (buffer.hasRemaining()) {
+                System.out.println("read：" + (char)buffer.get());
             }
+
             inChannel.close();
 
         } catch (java.io.IOException e) {
@@ -59,7 +63,7 @@ public class NIOStream {
 
             FileChannel writeChannel = randomAccessFile.getChannel();
 
-            String data = "hello world";
+            String data = "hello world asdas";
             ByteBuffer buf = ByteBuffer.allocate(48);
             buf.clear();
             buf.put(data.getBytes());
@@ -68,7 +72,7 @@ public class NIOStream {
 
             while (buf.hasRemaining()) {
                 writeChannel.write(buf);
-                System.out.println(writeChannel);
+                System.out.println("wirte:" + writeChannel);
             }
 
         } catch (java.io.IOException e) {
