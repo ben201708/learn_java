@@ -73,14 +73,14 @@ public class NioSocketChannel {
                 channel.write(bufferWrite);
             }
 
-            ByteBuffer bufferRead = ByteBuffer.allocate(48);
+            ByteBuffer bufferRead = ByteBuffer.allocate(2048);
             int c = channel.read(bufferRead);
 
 
             while (c != -1) {
                 bufferRead.flip();
                 while (bufferRead.hasRemaining()) {
-                    System.out.println((char) bufferRead.get());
+                    System.out.print((char) bufferRead.get());
                 }
 
                 bufferRead.clear();
