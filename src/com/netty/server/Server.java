@@ -1,5 +1,7 @@
-package com.netty;
+package com.netty.server;
 
+import com.netty.handler.ServerHandler;
+import com.netty.handler.StringHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -35,6 +37,7 @@ public class Server {
                         public void initChannel(SocketChannel ch) throws Exception {
                             // pipeline管理channel中的Handler，在channel队列中添加一个handler来处理业务
                             ch.pipeline().addLast( new ServerHandler() );
+                            ch.pipeline().addLast( new StringHandler() );
                         }
                     } );
             ChannelFuture f = b.bind().sync();// 配置完成，开始绑定server，通过调用sync同步方法阻塞直到绑定成功

@@ -1,6 +1,7 @@
-package com.netty;
+package com.netty.server;
 
 
+import com.netty.handler.ClientHandler;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -26,6 +27,7 @@ public class Client implements Runnable {
         thread.start();
         Scanner scanner = new Scanner( System.in );
         while (client.sendMsg( scanner.nextLine() )) ;
+        System.out.println("sendMsg");
     }
 
     @Override

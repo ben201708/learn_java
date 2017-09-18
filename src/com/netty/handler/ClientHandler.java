@@ -1,4 +1,4 @@
-package com.netty;
+package com.netty.handler;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -21,6 +21,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         this.ctx = ctx;
+        System.out.println("channelActive");
     }
 
     public boolean sendMsg(String msg) {
