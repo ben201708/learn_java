@@ -24,7 +24,7 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
         String body = new String( req, "utf-8" );
 
         System.out.println( "收到客户端消息:" + body );
-        ctx.fireChannelRead( body);
+        ctx.fireChannelRead( body );
 //        System.out.println( "server received data :" + msg );
 //        ByteBuf in = (ByteBuf) msg;
 //        StringBuffer sb = new StringBuffer();
@@ -36,8 +36,8 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
 //        }
 //        ctx.fireChannelRead(sb);
 //        ctx.write( msg );//写回数据
-//    }
     }
+
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
         //ctx.flush();
