@@ -17,15 +17,14 @@ public class Producer implements Runnable {
 
     @Override
     public void run() {
-        // 生产wt
+        // 生产
         for (int i = 0; i <= 100; i++) {
             Data data = new Data();
             data.setId(i);
             syncData.set(data);// 往篮子里装东西
-            System.out.println("生产了--->" + data);
+            System.out.println("当前线程：" + Thread.currentThread() + "，生产了--->" + data.toString());
             try {
-                Thread.sleep(1000);//每生产一个睡眠一秒
-                Thread.sleep((int) Math.random() * 1000);
+                Thread.sleep(3000);//每生产一个睡眠一秒
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

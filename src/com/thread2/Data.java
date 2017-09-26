@@ -18,4 +18,11 @@ public class Data {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Data{" +
+                "id=" + id +
+                '}';
+    }
 }
