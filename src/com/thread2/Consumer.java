@@ -23,12 +23,13 @@ public class Consumer implements Runnable {
 
             Data data = syncData.get();// 从生产者中获取数据
             System.out.println("当前线程：" + Thread.currentThread() + "，消费了--->" + data.toString());
+            /*
             try {
                 //消费一个睡眠随机时间
                 Thread.sleep((int) Math.random() * 1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }
+            }*/
         }
 
     }
