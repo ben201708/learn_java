@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/lib/netty/jar" />
+      <root url="jar://$PROJECT_DIR$/lib/serializable/kryo-2.24.0-sources.jar!/" />
     </SOURCES>
     <jarDirectory url="file://$PROJECT_DIR$/lib/netty/jar" recursive="false" />
     <jarDirectory url="file://$PROJECT_DIR$/lib/netty/jar" recursive="false" type="SOURCES" />

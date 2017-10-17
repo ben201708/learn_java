@@ -1,0 +1,9 @@
+package tutorial;
+option java_package = "com.serialize";
+option java_outer_classname = "Product"; 
+message ProductInfo { 
+  optional string s1 = 1;
+  optional int32 i2 = 2;
+  optional bool b3 = 3;
+  repeated string list = 4;
+}
