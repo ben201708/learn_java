@@ -1,248 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9ee2087-6957-4a68-a579-99c31f867174" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/basic/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/basic/testHashCode$Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/basic/testHashCode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/basic/testList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/basic/testObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/dataStructure/ConstructReflect1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/dataStructure/ConstructReflect2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/dataStructure/ConstructReflectBasic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/dataStructure/ReflectPoint.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/dataStructure/TestReflect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/adapter/Adaptee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/adapter/Adapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/adapter/AdapterMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/adapter/Target.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/composite/Component.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/composite/Composite.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/composite/CompositeMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/composite/Leaf.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/decorator/Component.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/decorator/ConcreteComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/decorator/ConcreteDecoratorA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/decorator/ConcreteDecoratorB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/decorator/Decorator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/decorator/DecoratorMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/factory/FactoryMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/factory/Operation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/factory/OperationAdd.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/factory/OperationFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/factory/OperationSub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/flyweight/ConcreteFlyweight.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/flyweight/Flyweight.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/flyweight/FlyweightFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/flyweight/FlyweightMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/flyweight/UnsharedConcreteFlyweight.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/observer/ConcreteObserver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/observer/ConcreteSubject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/observer/Observer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/observer/ObserverMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/observer/Subject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/proxy/DBQuery.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/proxy/DBQueryProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/proxy/GiveGift.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/proxy/IDBQuery.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/proxy/Proxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/proxy/ProxyMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/proxy/Pursuit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/proxy/SchoolGirl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/single/LazySingleton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/single/Singleton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/single/StaticSingleton$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/single/StaticSingleton$SingletonHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/single/StaticSingleton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/strategy/ConcreteStrategyA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/strategy/ConcreteStrategyB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/strategy/Context.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/strategy/Strategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/designMode/strategy/StrategyMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/gc/OldGcMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/gc/YoungGcMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/111.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/222.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/555.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/666.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/IOStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/NioDatagramChannel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/NioFileChannel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/NioSocketChannel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/TestBufferStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/TestBufferWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/TestFileOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/TestFileReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/io/TestFileWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/netty/Buffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/netty/handler/ClientHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/netty/handler/ServerHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/netty/handler/StringHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/netty/server/Client$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/netty/server/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/netty/server/Server$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/netty/server/Server.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/Bussiness.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/ShareData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestConditionCommunicate13$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestConditionCommunicate13$Bussiness.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestConditionCommunicate13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestCountDownLatch16$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestCountDownLatch16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestCyclicBarrier15$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestCyclicBarrier15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestMultiThreadShareData7$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestMultiThreadShareData7$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestMultiThreadShareData7$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestMultiThreadShareData7$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestMultiThreadShareData7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestSemaphore14$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestSemaphore14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThread1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThread1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThread1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadCommunication4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadCommunication4$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadCommunication4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadLocal6$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadLocal6$A.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadLocal6$B.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadLocal6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadPool9$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadPool9$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadPool9$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadPool9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadSafe3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadSafe3$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadSafe3$OutPuter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadSafe3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadScopeShareData5$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadScopeShareData5$A.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadScopeShareData5$B.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestThreadScopeShareData5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestTime2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/TestTime2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread/ThreadScopeData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread2/Consumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread2/Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread2/Producer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread2/SyncData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/com/thread2/testMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/doc/IO.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/doc/TCP_IP_第5版.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/doc/netty.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/doc/~$多线程.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/doc/~WRL0005.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/doc/基础学习.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/doc/多线程.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/doc/设计模式.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/learn_java/doc/阿里巴巴Java开发手册v1.2.0.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/basic/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/basic/testHashCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/basic/testList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/basic/testObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dataStructure/ConstructReflect1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dataStructure/ConstructReflect2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dataStructure/ConstructReflectBasic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dataStructure/ReflectPoint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dataStructure/TestReflect.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/adapter/Adaptee.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/adapter/Adapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/adapter/AdapterMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/adapter/Target.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/composite/Component.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/composite/Composite.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/composite/CompositeMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/composite/Leaf.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/decorator/Component.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/decorator/ConcreteComponent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/decorator/ConcreteDecoratorA.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/decorator/ConcreteDecoratorB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/decorator/Decorator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/decorator/DecoratorMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/factory/FactoryMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/factory/Operation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/factory/OperationAdd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/factory/OperationFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/factory/OperationSub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/flyweight/ConcreteFlyweight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/flyweight/Flyweight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/flyweight/FlyweightFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/flyweight/FlyweightMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/flyweight/UnsharedConcreteFlyweight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/observer/ConcreteObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/observer/ConcreteSubject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/observer/Observer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/observer/ObserverMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/observer/Subject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/proxy/DBQuery.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/proxy/DBQueryProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/proxy/GiveGift.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/proxy/IDBQuery.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/proxy/Proxy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/proxy/ProxyMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/proxy/Pursuit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/proxy/SchoolGirl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/single/LazySingleton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/single/Singleton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/single/StaticSingleton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/strategy/ConcreteStrategyA.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/strategy/ConcreteStrategyB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/strategy/Context.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/strategy/Strategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/designMode/strategy/StrategyMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/gc/OldGcMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/gc/YoungGcMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/111.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/222.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/555.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/666.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/IOStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/NioDatagramChannel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/NioFileChannel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/NioSocketChannel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/TestBufferStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/TestBufferWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/TestFileOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/TestFileReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/io/TestFileWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/netty/Buffer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/netty/handler/ClientHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/netty/handler/ServerHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/netty/handler/StringHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/netty/server/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/netty/server/Server.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestConditionCommunicate13.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestCountDownLatch16.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestCyclicBarrier15.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestMultiThreadShareData7.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestSemaphore14.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestThread1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestThreadCommunication4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestThreadLocal6.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestThreadPool9.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestThreadSafe3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestThreadScopeShareData5.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread/TestTime2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread2/Consumer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread2/Data.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread2/Producer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread2/SyncData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/thread2/testMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/IO.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/TCP_IP_第5版.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/jvm.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/netty.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/~$多线程.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/~WRL0005.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/基础学习.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/多线程.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/设计模式.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/阿里巴巴Java开发手册v1.2.0.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a9ee2087-6957-4a68-a579-99c31f867174" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -874,7 +633,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -885,13 +644,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23347548" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31995663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39757413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26545843" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35673353" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35028654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
