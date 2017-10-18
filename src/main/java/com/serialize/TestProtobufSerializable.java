@@ -69,6 +69,8 @@ public class TestProtobufSerializable {
         long end = System.currentTimeMillis();
         long usedTime = end - start;
         System.out.println("java Protobuf反序列化时间" + usedTime + "ms");
+
+        //System.out.println(list);
         return list;
     }
 }
