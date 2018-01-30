@@ -1,4 +1,4 @@
-package com.learn.jredis;
+package com.jredis;
 
 
 import org.junit.Test;
@@ -30,7 +30,8 @@ public class TcpServerSocket {
 
     public void redisServerSocket() {
         try {
-            socket = new Socket("localhost", 6379);
+
+            socket = new Socket(RedisConfig.host, RedisConfig.port);
 
             read = socket.getInputStream();
             write = socket.getOutputStream();
@@ -44,6 +45,14 @@ public class TcpServerSocket {
     private String set(String key, String value) {
 
         StringBuilder stringBuilder = new StringBuilder();
+
+        //设置密码
+        stringBuilder.append("*2").append("\r\n");
+        stringBuilder.append("$4").append("\r\n");
+        stringBuilder.append("AUTH").append("\r\n");
+        stringBuilder.append("$8").append("\r\n");
+        stringBuilder.append(RedisConfig.auth).append("\r\n");
+
         stringBuilder.append("*3").append("\r\n");
         stringBuilder.append("$3").append("\r\n");
         stringBuilder.append("SET").append("\r\n");
@@ -58,6 +67,14 @@ public class TcpServerSocket {
     private String get(String key) {
 
         StringBuilder stringBuilder = new StringBuilder();
+
+        //设置密码
+        stringBuilder.append("*2").append("\r\n");
+        stringBuilder.append("$4").append("\r\n");
+        stringBuilder.append("AUTH").append("\r\n");
+        stringBuilder.append("$8").append("\r\n");
+        stringBuilder.append(RedisConfig.auth).append("\r\n");
+
         stringBuilder.append("*3").append("\r\n");
         stringBuilder.append("$3").append("\r\n");
         stringBuilder.append("GET").append("\r\n");
