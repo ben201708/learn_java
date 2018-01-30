@@ -6,10 +6,7 @@ import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 
 /**
@@ -39,7 +36,7 @@ public class TestThreadPoolAndCountDownLatch {
                 public void run() {
 
                     try {
-                        Thread.sleep(200);
+                        Thread.sleep(3000 * taskI);
                         map.put(taskI, Thread.currentThread().getName());
                         countDownLatch.countDown();
                     } catch (InterruptedException e) {
@@ -56,7 +53,7 @@ public class TestThreadPoolAndCountDownLatch {
 
         try {
             Thread.sleep(2000);
-            countDownLatch.await();
+            countDownLatch.await(7000, TimeUnit.MILLISECONDS);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
