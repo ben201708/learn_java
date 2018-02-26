@@ -1,11 +1,11 @@
 package forkJoin;
 
 import java.util.concurrent.ForkJoinPool;
-import java.util.concurrent.RecursiveTask;
+import java.util.concurrent.RecursiveAction;
 
-public class ForkJoinWorker {
-    //线程阻塞
-    private static class Worker extends RecursiveTask<Integer> {
+public class ForkJoinWorker2 {
+    //并行处理
+    private static class Worker extends RecursiveAction {
 
         private static final long serialVersionUID = 1L;
 
@@ -33,27 +33,29 @@ public class ForkJoinWorker {
         }
 
         @Override
-        protected Integer compute() {
+        protected void compute() {
             int count = 0;
             if (toIndex - fromIndex < THRESHOLD) {
-
                 for (int i = fromIndex; i < toIndex; i++) {
                     if (balance.weight(bag, i)) {
                         count++;
                     }
+                    //System.out.println("当前bag信息：" + i);
                 }
-
             } else {
+
                 int mid = (fromIndex + toIndex) / 2;
                 Worker left = new Worker(bag, balance, fromIndex, mid);
                 Worker right = new Worker(bag, balance, mid + 1, toIndex);
 
+                System.out.println("当前bag：11");
+
                 //交给forkJoin框架进行处理
                 invokeAll(left, right);
-                return left.join() + right.join();
+                return;
             }
 
-            return count;
+            return;
         }
     }
 
@@ -67,13 +69,13 @@ public class ForkJoinWorker {
 
         long start = System.currentTimeMillis();
         Worker worker = new Worker(coins, balance, 0, coins.length - 1);
-        pool.invoke(worker);
+        pool.execute(worker);
         long end = System.currentTimeMillis();
 
         System.out.println("耗时：" + (end - start));
 
         //while (!pool.isShutdown()) {
-            //showLog(pool);
+        //showLog(pool);
         //}
     }
 
