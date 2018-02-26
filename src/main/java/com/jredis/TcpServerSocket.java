@@ -28,7 +28,7 @@ public class TcpServerSocket {
     }
 
 
-    public void redisServerSocket() {
+    private void redisServerSocket() {
         try {
 
             socket = new Socket(RedisConfig.host, RedisConfig.port);

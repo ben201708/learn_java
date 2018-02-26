@@ -18,15 +18,16 @@ import java.util.concurrent.*;
  */
 public class TestThreadPoolAndCountDownLatch {
 
+    private ConcurrentHashMap<Integer, String> map = new ConcurrentHashMap<Integer, String>();
+    private CountDownLatch countDownLatch;
+    private ExecutorService threadPool = Executors.newFixedThreadPool(100); //固定数量线程池
+
     @Test
     public void test() {
 
         //初始化值
         Integer count = 4;
-        final ConcurrentHashMap<Integer, String> map = new ConcurrentHashMap<Integer, String>();
-        final CountDownLatch countDownLatch = new CountDownLatch(count);
-
-        ExecutorService threadPool = Executors.newFixedThreadPool(count); //固定数量线程池
+        countDownLatch = new CountDownLatch(count);
 
         for (int i = 0; i < count; i++) {
             final Integer taskI = i;
