@@ -16,7 +16,7 @@ public class SocketClient {
             socket = new Socket(host, port);
             System.out.println("开始socket");
 
-
+            socket.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

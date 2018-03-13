@@ -15,10 +15,10 @@ public class TestJredis {
         jedis.auth(RedisConfig.auth);
 
         jedis.set("hello", "ben");
-
         String val = jedis.get("hello");
-
         System.out.println("返回结果：" + val);
+
+        jedis.close();
     }
 
 
