@@ -3,7 +3,9 @@ package com.thread;
 
 import org.junit.Test;
 
+import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.CyclicBarrier;
 
 
 /**
@@ -15,7 +17,8 @@ import java.util.concurrent.CountDownLatch;
  */
 public class TestCountDownLatch {
 
-    private static CountDownLatch cd1 = new CountDownLatch(10);
+    //private static CountDownLatch cd1 = new CountDownLatch(10);
+    private static CyclicBarrier cd1 = new CyclicBarrier(10);
 
     @Test
     public void test() {
@@ -25,11 +28,13 @@ public class TestCountDownLatch {
                 @Override
                 public void run() {
 
-                    System.out.println("当前线程：" + Thread.currentThread().getName() + "，CountDownLatch：" + cd1.getCount());
+                    System.out.println("当前线程：" + Thread.currentThread().getName());
+
+                    //cd1.countDown();
 
                     try {
                         cd1.await();
-                    } catch (InterruptedException e) {
+                    } catch (InterruptedException | BrokenBarrierException e) {
                         e.printStackTrace();
                     }
 
@@ -46,8 +51,6 @@ public class TestCountDownLatch {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
-            cd1.countDown();
         }
 
     }

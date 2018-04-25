@@ -2,6 +2,7 @@ package com.future;
 
 import org.junit.Test;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.concurrent.Callable;
@@ -36,7 +37,14 @@ public class TestFuture {
             @Override
             public Object call() throws Exception {
                 Thread.sleep(2000);
-                return "call able2 string";
+
+                Map<String, Object> map = new HashMap<String, Object>();
+
+                map.put("aaa", "aaa");
+                map.put("bbb", "bbb");
+                map.put("ccc", "ccc");
+
+                return map;
             }
         };
 
@@ -49,7 +57,7 @@ public class TestFuture {
 
         try {
             String res1 = (String) futureTask1.get();
-            String res2 = (String) futureTask2.get();
+            Map<String, Object> res2 = (Map<String, Object>) futureTask2.get();
 
             System.out.println("输出结果1：" + res1);
             System.out.println("输出结果2：" + res2);
